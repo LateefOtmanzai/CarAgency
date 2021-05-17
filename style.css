@@ -1,0 +1,116 @@
+body {
+    background-color: #ffffff;
+}
+
+.image-head {
+    background-image: url(images/image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 70vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+}
+
+.navbar-nav>li {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+.pos-f-t {
+    position: relative;
+}
+
+.pos-f-t .navbar-toggle {
+    background-color: #2E8B57;
+    border: 5px solid #FFFFFF;
+    box-shadow: 1px 1px 1.5px #FFFFFF;
+    padding: 8px 10px 8px 10px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+.container {
+    width: 540px;
+    margin: 40px auto;
+    overflow: auto;
+}
+
+.slider-inner {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    border: #666 solid 1px;
+}
+
+.slider-inner img {
+    display: none;
+    width: 500px;
+    height: 300px;
+}
+
+.slider-inner img.active {
+    display: inline-block;
+}
+
+.prev,
+.next {
+    float: left;
+    margin-top: 130px;
+    cursor: pointer;
+}
+
+.prev {
+    position: relative;
+    margin-right: -45px;
+    z-index: 100;
+}
+
+.next {
+    position: relative;
+    margin-left: -45px;
+    z-index: 100;
+}
+
+.border {
+    border-bottom: 4px solid grey;
+    width: 100%;
+}
+
+#myslider {
+    position: relative;
+    height: 250px;
+    width: 350px;
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /*   opacity: 0; */
+    transition: 1s;
+}
+
+.btnn {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    border: none;
+    padding: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+button:nth-of-type(2) {
+    right: 0;
+}
