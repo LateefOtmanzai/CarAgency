@@ -5,95 +5,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="style.css">
     <title>Car Agency</title>
 </head>
+<!-- ------------------------------- </head> ------------------------------- -->
 
 <body>
-    <div class="container-fluid">
+    <header class="container-fluid">
         <!--Background Image-->
-
         <div id="image-head" class="image-head">
-            <div class="pos-f-t">
-                <div class="collapse" id="navbarToggleExternalContent">
-                    <div class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <h5 class="text-white h4">Collapsed content</h5>
-                        <span class="sr-only">Toggle Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="text-muted">Toggleable via the navbar brand.</span>
-                    </div>
-                </div>
-                <nav class="navbar navbar-dark">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                </nav>
-            </div>
+<nav class="navbar-dark">
+  <div class="container-fluid d-flex justify-content-end">
+    <button class="navbar-toggler btn-md btn-outline-secondary me-md-2 my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+  <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-light p-2">
+    <ul class="list-unstyled">
+   <li class="my-2"><a class="text-decoration-none" href="">Louer une voiture</a></li>
+   <li class="my-2"><a class="text-decoration-none" href="">Louer une utilitaire</a></li>
+   <li class="my-2"><a class="text-decoration-none" href="">Réserver un chauffeur</a></li>
+   <li class="my-2"><a class="text-decoration-none" href="">Découvez nos agences</a></li>
+   <li class="my-2"><a class="text-decoration-none" href="">Mon Compte</a></li>
+   <li class="my-2"><a class="text-decoration-none" href="">Contact</a></li>
+</ul>
+
+    </div>
+    </div>
             <div class="bg-image-module">
-                <div class="col-12 background background-fluid ">
+                <div class="col-md-12 background background-fluid ">
                     <h1 class="text-white text-center mt-4">Bienvenue à bord</h1>
                     <p class="text-white text-center ">Location de voiture 24h/24 et 7j/7 </p>
-
-
-                    <div class="row d-flex justify-content-center align-items-center">
-                        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary text-white">
-                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle rounded bg-light text-dark" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
-                                Adresse de départ
-                              </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item active">
-                                        <div class="input-group">
-                                            <input class="form-control border-end-0 border rounded" type="text" value="Début de location" id="example-search-input">
-                                            <span class="input-group-append">
-                                            <button class="btn btn-outline-secondary bg-white border-start-0 border rounded ms-n3" type="button">
-                                                <i class="fas fa-calendar-alt"></i>
-                                            </button>
-                                        </span>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item">
-                                        <div class="input-group">
-                                            <input class="form-control border-end-0 border rounded" type="text" value="Fin de location" id="example-search-input">
-                                            <span class="input-group-append">
-                                            <button class="btn btn-outline-secondary bg-white border-start-0 border rounded ms-n3" type="button">
-                                                <i class="fas fa-calendar-alt"></i>
-                                            </button>
-                                        </span>
-                                        </div>
-                                    </li>
-                                    <li class="nav-item">
-                                        <button class="nav-link btn btn-success">Valider ma recherche</button>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
                 </div>
+<div class="bg-nav rounded">
+  <nav class="navbar navbar-expand">
+      <div class="collapse navbar-collapse" id="navbarsExample03">
+        <div class="navbar-nav me-auto mb-2 mb-sm-0">
+          <div class="col-md-4 mx-3 nav-item">
+            <select class="form-select" aria-label="Default select example">
+        <option selected>Adresse de départ</option>
+        <option value="Paris">Paris</option>
+        <option value="Lyon">Lyon</option>
+        <option value="Rennes">Rennes</option>
+        <option value="Autre">Autre</option>
+        </select>
+          </div>
+          <div class="col-md-3 nav-item d-inline">
+           <input type="text" class="form-control" placeholder="Début de location">
+          </div>
+          <div class="d-inline">
+            <i class="btn btn-lg bg-light fas fa-calendar-alt me-4"></i>
+          </div>
+          <div class="col-md-3 nav-item">
+             <input type="text" class="form-control" placeholder="Fin de location">
+          </div>
+            <div class="d-inline">
+    <i class="btn btn-lg bg-light fas fa-calendar-alt me-4"></i>
+    </div>
+        </div>
+      </div>
+  </nav>
+<div class="manage d-inline text-center text-white bg-success form-control">
+    <button class="btn text-white" type="submit">Valider ma recherche</button>
+</div>
+  </div>
             </div>
         </div>
-
-        <div class="row ml-5">
+ </header>
+ <main class="container">
+        <div class="col-md ml-5">
             <h3> 7 résultats</h3>
-        </div>
-        <div class=" row float-right d-lg-block "> <button class="dropdown-toggle rounded">Prix croissant</button>
+        <button class="dropdown-toggle btn btn-secondary btn-secondary rounded">Prix croissant</button>
         </div>
         <div class="row p-5">
-            <div class="col-6">
+            <div class="col-4">
                 <div id="myslider">
                     <img class="slide" src="vehicule1.png">
                     <img class="slide" src="vehicule2.png" alt="car">
@@ -166,8 +157,8 @@
             </div>
         </div>
         <div class="border"></div>
-
-        <div class="row mt-5">
+</main>
+<footer>        <div class="row mt-5">
             <div class="col d-flex justify-content-center align-content-center">
                 <img src="agence.jpg" class="w-50 h-75 " alt="">
             </div>
@@ -180,11 +171,7 @@
             </div>
         </div>
 
-
-
-
-
-    </div>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="JS_exo.js"></script>
