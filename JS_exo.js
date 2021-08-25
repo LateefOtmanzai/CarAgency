@@ -18,8 +18,8 @@ setInterval(function() {
 }, 15 * 1000);
 
 
-document.getElementById("left-button").addEventListener("click", () => { plusDivs(-1) });
-document.getElementById("right-button").addEventListener("click", () => { plusDivs(1) });
+document.getElementByclass("left-button").addEventListener("click", () => { plusDivs(-1) });
+document.getElementByclass("right-button").addEventListener("click", () => { plusDivs(1) });
 
 var slideIndex = 1;
 showDivs(slideIndex);
